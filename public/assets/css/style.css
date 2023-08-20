@@ -1,0 +1,275 @@
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+
+  fieldset{
+    border: solid 1px #EEE;
+    padding: 0 2rem 1rem 2rem;
+    margin: 1rem 0;
+  }
+
+  legend{
+    color: #CCC;
+  }
+
+  label{
+    margin-bottom: 0.2rem;
+  }
+
+  input, textarea, select{
+    margin-bottom: 1.5rem;
+  }
+
+  select{
+    margin-top: 0;
+  }
+
+  .wizard table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+	border: none;
+  }
+  .wizard table td, th {
+    border: none;
+}
+.wizard,.tabcontrol{
+    display:block;
+    width:100%;
+    overflow:hidden
+}
+.wizard a,.tabcontrol a{
+    outline:0
+}
+.wizard ul,.tabcontrol ul{
+    list-style:none!important;
+    padding:0;
+    margin:0
+}
+.wizard ul>li,.tabcontrol ul>li{
+    display:block;
+    padding:0
+}
+.wizard>.steps .current-info,.tabcontrol>.steps .current-info{
+    position:absolute;
+    left:-999em
+}
+.wizard>.content>.title,.tabcontrol>.content>.title{
+    position:absolute;
+    left:-999em
+}
+.wizard>.steps{
+    position:relative;
+    display:block;
+    width:100%
+}
+.wizard.vertical>.steps{
+    display:inline;
+    float:left;
+    width:30%
+}
+.wizard>.steps>ul>li{
+    width:25%
+}
+.wizard>.steps>ul>li,.wizard>.actions>ul>li{
+    float:left
+}
+.wizard.vertical>.steps>ul>li{
+    float:none;
+    width:100%
+}
+.wizard>.steps a,.wizard>.steps a:hover,.wizard>.steps a:active{
+    display:block;
+    width:auto;
+    margin: 0 1rem 0 0;
+    padding: 0.5rem 1rem;
+    text-decoration:none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px
+}
+.wizard>.steps .disabled a,.wizard>.steps .disabled a:hover,.wizard>.steps .disabled a:active{
+    background:#eee;
+    color:#aaa;
+    cursor:default
+}
+.wizard>.steps .current a,.wizard>.steps .current a:hover,.wizard>.steps .current a:active{
+    background:#6F809F;
+    color:#fff;
+    cursor:default
+}
+.wizard>.steps .done a,.wizard>.steps .done a:hover,.wizard>.steps .done a:active{
+    background:#9dc8e2;
+    color:#fff
+}
+.wizard>.steps .error a,.wizard>.steps .error a:hover,.wizard>.steps .error a:active{
+    background:#c31c02;
+    color:#fff
+}
+.wizard>.actions{
+    display:block;
+    text-align:right;
+    width:100%
+}
+.wizard.vertical>.actions{
+    display:inline;
+    float:right;
+    margin:0 2.5%;
+    width:95%
+}
+.wizard>.actions>ul{
+    display:inline-block;
+    text-align:right
+}
+.wizard>.actions>ul>li{
+    margin:0 .5em
+}
+.wizard.vertical>.actions>ul>li{
+    margin:0 0 0 1em
+}
+.wizard>.actions a,.wizard>.actions a:hover,.wizard>.actions a:active{
+    background:#6F809F;
+    color:#fff;
+    display:block;
+		margin: 0;
+    padding: 0.5rem 1rem;
+    text-decoration:none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px
+}
+.wizard>.actions .disabled a,.wizard>.actions .disabled a:hover,.wizard>.actions .disabled a:active{
+    background:#eee;
+    color:#aaa
+}
+.wizard>.loading{
+}
+.wizard>.loading .spinner{
+}
+.error {
+	color: #c31c02;
+}
+
+
+.person-title .element{
+  display: inline-block;
+  padding: 5px;
+}
+
+.person-title .element.block{
+  display: block;
+}

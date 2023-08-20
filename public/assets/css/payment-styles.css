@@ -1,0 +1,67 @@
+/*----------------- MAIN CONTAINER -----------------*/
+.portfolio-realex {
+background: white;
+max-width: 435px;
+}
+
+/*----------------- HEADER -----------------*/
+
+/* This hides the entire header - that includes the breadcrumb and the title */
+#rxp-header {
+display: none;
+}
+/* this is a div that contains the loading animation */
+#info-box-footer {
+display: none;
+}
+
+/*----------------- FORM -----------------*/
+/* main wrapper around elements */
+.panel {
+border-color: white;
+box-shadow: 0 1px 1px white;
+}
+/* this is the same div as "panel" but the ID is specific to the payment form */
+#another-card-section {
+background: white;
+}
+/* wrapper around the payment form */
+#rpx-another-card {
+background: white;
+}
+
+/*----------------- CARD MANAGEMENT -----------------*/
+/* Heading "pay with a saved card" and "pay with another card*/
+#hpp-accordion .panel-heading {
+background-color: white;
+}
+#panelPayWithSavedCard{
+width: 94%;
+margin-left: 3%;
+}
+
+/*----------------- BUTTON -----------------*/
+/* this is the box around the button */
+#main-btn-box{
+width: 94%;
+margin-left: 3%;
+}
+/* this is the actual button */
+#main-btn-box .btn-hpp-a {
+font-size: 1.25em;
+background-color:#0099cc;
+font-weight:100;
+}
+
+
+/*----------------- FOOTER -----------------*/
+/* this is for the entire footer */
+#rxp-footer {
+background-color: white;
+padding: 0 0 0 8px;
+margin-left: 2%;
+}
+/* This is to hide Realex Payments logo */
+#rxp-footer .text-right {
+display: none;
+}

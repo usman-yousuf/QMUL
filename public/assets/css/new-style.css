@@ -1,0 +1,147 @@
+/* Local fonts */
+@font-face {
+  font-family: SourceSansPro;
+  src: url(/fonts/SourceSansPro-Regular.a3a1bfbb.woff2) format("woff2"),
+    url(/fonts/SourceSansPro-Regular.960b2d7f.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: SourceSansPro;
+  src: url(/fonts/SourceSansPro-SemiBold.c6516f00.woff2) format("woff2"),
+    url(/fonts/SourceSansPro-SemiBold.7d4d13eb.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: SourceSansPro;
+  src: url(/fonts/SourceSansPro-ExtraLight.0a7ed5ae.woff2) format("woff2"),
+    url(/fonts/SourceSansPro-ExtraLight.45bab2b6.woff) format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: SourceSansPro;
+  src: url(/fonts/SourceSansPro-Italic.6b959b8f.woff2) format("woff2"),
+    url(/fonts/SourceSansPro-Italic.40996a96.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Oswald;
+  src: url(/fonts/Oswald-Medium.02cc4abd.woff2) format("woff2"),
+    url(/fonts/Oswald-Medium.8ac69b9a.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+table, td {
+  border: none;
+}
+
+/* Radio button  */
+input[type="radio"] {
+  border-width: 1px;
+  border-color: #0d3273;
+  background-color: #fff;
+  height: 24px;
+  width: 24px;
+  border-radius: 100%;
+}
+
+/* Progress bar */
+body {
+  counter-reset: section;
+}
+
+.esitContent .breadcrumb {
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  list-style: none;
+  background: #e8ecf2;
+  font-size: .7778rem;
+}
+
+.esitContent .breadcrumb li {
+  position: relative;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding: 1rem 2rem;
+  text-align: center;
+  vertical-align: middle;
+  cursor: default;
+}
+
+.esitContent .breadcrumb li::before {
+  counter-increment: section;
+  content: counter(section);
+  position: relative;
+  background: #7b0e72;
+  color: #fff;
+  right: 0.8rem;
+  border-radius: 50%;
+  padding: 0.2em 0.55em;
+}
+
+.esitContent .breadcrumb li.active {
+  background: #7b0e72;
+  color: #fff;
+}
+
+/* .esitContent .breadcrumb li.active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -1rem;
+  width: 0;
+  height: 0;
+  border-top: 1.75rem solid transparent;
+  border-bottom: 1.75rem solid transparent;
+  border-left: 1rem solid #7b0e72;
+  z-index: 300;
+} */
+
+.esitContent .breadcrumb li.active::before {
+  background: #fff;
+  color: #7b0e72;
+}
+
+@media only screen and (max-width: 800px) {
+  .esitContent .breadcrumb {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+}
+
+/* Errors */
+
+label.error {
+  color: #E5101B;
+  padding: 10px 0;
+  font-weight: bold;
+  display: block;
+}
+
+input.error, textarea.error {
+  border-color: #E5101B;
+	background-image: url("data:image/svg+xml,%3Csvg width='21' height='21' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.5 0c1.891 0 3.641.473 5.25 1.418a10.61 10.61 0 0 1 3.832 3.832A10.178 10.178 0 0 1 21 10.5c0 1.891-.473 3.641-1.418 5.25a10.61 10.61 0 0 1-3.832 3.832A10.178 10.178 0 0 1 10.5 21c-1.891 0-3.641-.473-5.25-1.418a10.61 10.61 0 0 1-3.832-3.832A10.178 10.178 0 0 1 0 10.5c0-1.891.473-3.641 1.418-5.25A10.61 10.61 0 0 1 5.25 1.418 10.178 10.178 0 0 1 10.5 0zm5.165 13.252L12.871 10.5l2.794-2.752a.59.59 0 0 0 .127-.36.59.59 0 0 0-.127-.36l-1.693-1.693a.458.458 0 0 0-.339-.127.62.62 0 0 0-.381.127L10.5 8.129 7.748 5.335a.59.59 0 0 0-.36-.127.59.59 0 0 0-.36.127L5.335 7.028a.458.458 0 0 0-.127.339.62.62 0 0 0 .127.381L8.129 10.5l-2.794 2.752a.59.59 0 0 0-.127.36.59.59 0 0 0 .127.36l1.693 1.693a.458.458 0 0 0 .339.127.62.62 0 0 0 .381-.127l2.752-2.794 2.752 2.794a.59.59 0 0 0 .36.127.59.59 0 0 0 .36-.127l1.693-1.693a.458.458 0 0 0 .127-.339.62.62 0 0 0-.127-.381z' fill='%23FF2D55' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+	background-position: calc(100% - 11px) 50%;
+	padding-right: 40px;
+}
+
+.esitBody {
+  padding: 10px;
+}

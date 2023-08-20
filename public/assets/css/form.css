@@ -1,0 +1,880 @@
+
+/* main form elements */
+.esitContent .esitBody fieldset{
+	/*padding:10px 30px 10px 30px;*/
+	margin:10px 0px 10px 0px;
+	/*
+	-moz-border-radius:7px;
+    */
+    border-top:none;
+}
+
+.esitContent .esitBody .main input:focus, .esitContent .esitBody .main select:focus, .esitContent .esitBody .main textarea:focus
+{
+    outline: none;
+}
+
+
+.esitContent .checkbox
+{
+    /*float:right;*/
+    clear:both;
+    margin-bottom:5px;
+    margin-left:5px;
+}
+
+.esitContent .orgCheckbox
+{
+    float:left;
+    margin-left:210px;
+}
+
+.esitContent .volunteerSkills .checkbox
+{
+    clear:both;
+    float:none;
+}
+
+.esitContent .check label
+{
+    display:inline;
+    margin-left:5px;
+}
+
+.esitContent .check input
+{
+    float:left;
+}
+
+.esitContent .tqRow,
+.esitContent .SSArow,
+.esitContent .rowRadio{
+	margin-top:10px;
+	clear:both;
+}
+
+.esitContent .SSArow input, .esitContent .SSArow label, .esitContent .rowRadio label
+{
+    display:inline;
+}
+
+.esitContent .tqRow .btn, .esitContent .btnbotmargin
+{
+    margin-bottom:9px;
+}
+
+.esitContent .gap{
+	clear:both;
+}
+
+.esitContent .captcha span
+{
+    margin-left:23px;
+}
+
+.esitContent .tqRow label,
+.esitContent .tqRow .tqLabel,
+.esitContent .gap label,
+.esitContent .gap .tqLabel,
+.esitContent .SSArow label,
+.esitContent .SSArow .tqLabel,
+.esitContent .rowRadio .tqLabel,
+.esitContent .rowRadio label{
+	width:220px;
+	float:left;
+	text-align:right;
+	margin:3px 6px 0 0;
+}
+
+.esitContent .tqRow .tqLabel,.esitContent .gap .tqLabel,.esitContent .rowRadio .tqLabel,.esitContent .SSArow .tqLabel
+{
+    margin-top:0;
+}
+
+.esitContent .checkbox .value
+{
+    margin-left:10px;
+    float:right;
+}
+
+.esitContent .autoSummary td.left
+{
+    vertical-align:top;
+}
+
+.esitContent .ownLineValidationMessage{
+    padding-left:215px;
+}
+
+.esitContent .rowLeft label,
+.esitContent .rowLeft .label
+{
+    width:130px;
+}
+
+
+.esitContent .rowRadio td label,
+.esitContent .rowRadio td .label
+{
+	float:right;
+	text-align:left;
+	margin-left:5px;
+}
+
+.esitContent .rowRadio td input
+{
+    margin:0;
+}
+
+
+.esitContent .SSArow table label{
+	width:auto;
+	float:none;
+	margin:0px;
+	padding:0 5px;
+}
+
+.esitContent .SSArow table input, .esitContent .cbList label, .esitContent .cbListDest label
+{
+    margin:0;
+    margin-bottom:3px;
+}
+
+.esitContent .SSArow table input.SSAfreeAmount{
+	width:55px;
+}
+
+.esitContent .SSArow table td
+{
+	padding-bottom:10px;
+}
+
+.esitContent .value
+{
+
+    overflow:visible;
+    display:inline-block;
+}
+
+
+.esitContent .rowRadio .value{
+	margin-top:3px;
+	float:left;
+}
+
+.esitContent .gap input,
+.esitContent .gap textarea{
+	width:200px;
+}
+
+.esitContent .btns{
+	margin-left:160px;
+}
+
+
+.esitContent .checkBoxes div
+{
+	/*text-align:right;*/
+	padding-right:50px;
+}
+
+.esitContent table.cbList td input, .esitContent table.cbListDest td input{
+    width:auto;
+    text-align:left;
+    float:left;
+}
+
+.esitContent table.cbList td label{
+    width:auto;
+    text-align:left;
+    padding-left:5px;
+    margin-left:15px;
+}
+
+.esitContent table.cbListDest td label{
+    width:auto;
+    text-align:left;
+    padding-left:5px;
+}
+
+.esitContent .tqRow .longButton,
+.esitContent .gap .longButton{
+	width:300px;
+}
+
+.esitContent .esitBody input.inpWide
+{
+	width:250px;
+}
+
+.esitContent .esitBody input.inpSmall
+{
+	width:50px;
+}
+
+.esitContent .esitBody textarea.inpBig
+{
+	height:100px;
+}
+.esitContent .input-small
+{
+    width:70px;
+}
+
+.esitContent .esitBody textarea.inpHuge
+{
+	width:350px;
+	height:200px;
+}
+
+/* validation */
+.esitContent .valSummary{
+	margin:10px 0 10px 10px;
+	font-size:1.1em;
+	border:1px solid;
+	width:90%;
+	padding:5px;
+}
+
+/* autosummary */
+
+.esitContent table.autoSummary{
+	border-collapse:collapse;
+}
+.esitContent table.autoSummary td {
+	padding:10px 1px 10px 1px;
+
+}
+.esitContent table.autoSummary tr td.left{
+	width:220px;
+	padding-right:20px;
+	text-align:right;
+
+}
+.esitContent table.autoSummary tr td.right{
+	width:200px;
+
+	text-align:left;
+}
+
+.esitContent div.autoSummaryDiv h4
+{
+	margin-top:20px;
+}
+
+
+/*  table data */
+.esitContent td.num{
+	text-align:right;
+}
+
+.esitContent td.tdWide{
+	width:90%
+}
+
+.esitContent td.tdMid{
+	width:33%
+}
+
+.esitContent input.reminderButton
+{
+	width:80px;
+}
+
+.esitContent .esitBtn, .esitContent .tqRow .esitBtn
+{
+	/*border-style:solid;
+	background:#EEE;*/
+	padding-left:10px;
+	padding-right:10px;
+	width:auto;
+}
+
+.alignedBtn
+{
+    margin:0px 0 0 225px;
+}
+
+.esitContent div.softDiv
+{
+	padding:5px 0 10px 0;
+	border-top:1px solid;
+
+
+}
+
+.esitContent table.softTable td
+{
+	padding:5px 0 15px 0;
+	border-top:1px solid;
+}
+
+.esitContent td.tdTopAlign
+{
+	vertical-align:top;
+	text-align:center;
+}
+
+.esitContent ul.bulleted
+{
+	margin-top:10px;
+	list-style-type:disc;
+	padding-left:30px;
+
+}
+
+.esitContent ul.bulleted li
+{
+	padding-bottom:10px;
+}
+
+.esitContent .ddPlaces
+{
+	width:4em;
+	margin-bottom:0;
+}
+
+
+.esitContent .customHTMLWrapper h5
+{
+	color:#777777;
+	margin-bottom:5px;
+}
+
+.esitContent .customHTMLWrapper
+{
+	position:absolute;
+	display:none;
+}
+.esitContent .customHTMLInner
+{
+	position:relative;
+	margin-top:100px;
+	left:50px;
+
+	padding:20px;
+	border:1px solid red;
+	width:610px;
+	background-image:url(/web/20180719060821im_/https://alumni.qmul.ac.uk/res/image/bgSoft.gif) ;
+	background-repeat:repeat-x;
+	background-color:#EEE;
+}
+
+.esitContent .customHTMLWrapper .customHTMLTextBox
+{
+	display:block;
+	margin-bottom:5px;
+}
+
+.esitContent .customHTMLWrapper .customHTMLbtns
+{
+	border:1px solid black;
+	margin-right:5px;
+	height:1.5em;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.esitContent .customHTMLWrapper #customHTMLDefault
+{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.esitContent .customHTMLWrapper #customHTMLDefault a
+{
+	text-decoration:none;
+}
+
+ .esitContent .customHTMLWrapper .customHTMLArea
+ {
+	border: 1px solid ghostwhite;
+	padding:5px 15px 5px 15px;
+		background-image:url(/web/20180719060821im_/https://alumni.qmul.ac.uk/res/image/bgSoft.gif) ;
+	background-repeat:repeat-x;
+ }
+
+ .esitContent .customHTMLWrapper #ctl00_customHTML
+ {
+	width:550px;
+ }
+
+
+ .esitContent .calendarWrapper
+ {
+	text-align:center;
+ }
+
+ .esitContent table.eventsCalendar
+ {
+	width:234px;
+	margin-left:auto;
+	margin-right:auto;
+
+ }
+
+.esitContent table.eventsCalendar td
+{
+	padding:2px;
+}
+
+.esitContent td.eventDay
+{
+	font-weight:bold;
+	border:1px solid black;
+}
+
+.esitContent .rowCheckBoxList
+{
+	margin-top:30px;
+
+}
+
+.esitContent .rowCheckBoxList table
+{
+	margin-left:70px;
+}
+
+.esitContent .accountCheck div
+{
+	padding:5px 0 0 130px;
+	clear:both;
+}
+.esitContent .accountCheck label
+{
+	padding-left:5px;
+}
+
+.esitContent .loneButton
+{
+	padding:10px 0 10px 160px;
+
+}
+
+.esitContent .accountFeedback p
+{
+	color:Red;
+
+}
+
+.esitContent .eventDoBook
+{
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+
+
+
+
+/* TRADING STYLES */
+
+.esitContent .tradingPriceLineLeft
+{
+	float:left;
+	clear:both;
+	font-size:1.2em;
+	margin-top:5px;
+}
+
+.esitContent .tradingTotalPrice
+{
+    font-size:1.2em;
+    padding-top:10px;
+}
+
+.esitContent .tradingPriceLineRight, .esitContent .documentPermissionsLineRight
+{
+	float:right;
+}
+
+.basketPriceLineRight .input-small
+{
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+.esitContent .basketPriceLineRight
+{
+	float:right;
+	width:40%;
+}
+
+.esitContent .tradingIncludes
+{
+	margin:20px 0 10px 0;
+}
+.esitContent div.tradingBasketMenu
+{
+	border:1px solid;
+	padding:8px;
+}
+
+.esitContent div.tradingBasketMenu li
+{
+	font-size:0.9em;
+}
+
+.esitContent .basket
+{
+    border-radius: 4px;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+.esitContent .basket ul
+{
+    margin-left:0;
+    margin-top:5px;
+}
+
+.esitContent .tradingBasketLinks
+{
+	margin-top:5px;
+	text-align:right;
+}
+
+.esitContent .tradinOtherPrice, .esitContent .documentOtherPrice
+{
+	clear:both;
+	margin-bottom:2px;
+}
+
+.esitContent .basketStockLine
+{
+	text-align:right;
+	float:left;
+	margin-left:105px;
+}
+
+.esitContent .tradingStockLine
+{
+	text-align:right;
+    clear:both;
+}
+
+.esitContent .tradingAddressOption
+{
+	margin:10px 0 10px 155px;
+}
+
+.esitContent .ADDRESSCHOICEDiv td
+{
+	padding-bottom:20px;
+}
+
+.esitContent .tradingSummary h4
+{
+	margin-top:20px;
+}
+
+.esitContent table.tradingProductSummary
+{
+  border-collapse:collapse;
+}
+
+.esitContent .tradingProductSummary td,
+.esitContent .tradingProductSummary th
+{
+	text-align:right;
+	border:1px solid;
+	padding:4px;
+}
+
+.esitContent .tradingProductSummary .tradingItem
+{
+	text-align:left;
+}
+
+.esitContent .tqRow textarea.tradingSpecialInstructions
+{
+	height:100px;
+	width:250px;
+}
+
+
+
+.esitContent div.dProductImageleft, .esitContent div.dDocumentImageleft
+{
+    float:left;
+    margin:5px 10px 5px 0;
+    padding-top:0px;
+}
+
+.esitContent div.dProductImageright, .esitContent div.dDocumentImageright
+{
+    float:right;
+    margin:5px 0px 5px 10px;
+    padding-top:0px;
+}
+
+
+.esitContent div.dProductDetails, .esitContent div.dDocumentDetails
+{
+    overflow:auto;
+    padding-bottom:10px;
+}
+
+.esitContent div.xTradingProduct
+{
+    overflow:hidden;
+    margin:0 auto;
+    padding-left:10px;
+}
+
+.esitContent hr.tradingGroupDivider, .esitContent hr.documentGroupDivider
+{
+    clear:both;
+}
+
+
+
+.esitContent .DDGbox
+{
+	border:2px solid black;
+	padding:20px;
+	margin-bottom:20px;
+}
+
+
+.esitContent table.results{
+    border-collapse:collapse;
+}
+
+.esitContent table.results th{
+    text-align:left;
+}
+
+.esitContent table.results th,
+.esitContent table.results td{
+    padding:3px;
+    border-width:1px;
+    border-style:solid;
+}
+
+.esitContent .alumniResultsCell div{
+
+}
+
+.esitContent .alumniNewMessage{
+    height:200px;
+    width:500px;
+}
+
+.esitContent .wholeWidthMultiLineBox
+{
+    width:450px;
+    height:250px;
+}
+
+.esitContent .employmentRecord
+{
+    margin-bottom:20px;
+
+}
+
+.esitContent .employmentRecord div
+{
+    margin-bottom:10px;
+}
+
+.esitContent .messageWaiting
+{
+    border-width:1px;
+    border-style:solid;
+    padding-right:10px;
+    padding-left:10px;
+    margin:10px;
+}
+
+.esitContent .courseName
+{
+
+}
+
+.esitContent .registerCourses label
+{
+    width:140px;
+}
+
+.esitContent .searchProfileAlert
+{
+    border:1px solid;
+    padding:5px;
+    margin:10px 0 10px 0;
+}
+
+.esitContent .editModeCbListTable{
+    padding-top:5px;
+}
+
+.esitContent .editModeCbListTable td label{
+    padding-left:5px;
+}
+
+.esitContent .eventStructureDiv table {
+    margin-left:20px;
+}
+
+.esitContent .eventStructureDiv table label{
+    padding-left:5px;
+}
+
+
+.esitContent .alumniSearchForm .tqRow label,
+.esitContent .alumniSearchForm .tqRow .label
+{
+width:100px;
+}
+
+ .tqRow input.courseAutocompleterTextBox{
+    width:350px;
+}
+
+.tradingPriceLineRight .btn
+{
+    margin-bottom:9px;
+}
+
+.tradingLabel
+{
+    display:inline-block;
+    width:100px;
+    text-align:right;
+    margin-right:5px;
+}
+
+.courseAutocompleter{
+    border:2px solid gray;
+    position:relative;
+    background-color:#ffffff;
+    left:120px !important;
+}
+
+.courseAutocompleterTrading{
+    border:2px solid gray;
+    position:relative;
+    left:22px !important;
+    background-color:#ffffff;
+}
+
+.courseAutocompleterItem{
+    padding:3px;
+    background:#ffffff;
+    list-style:none;
+}
+
+.courseAutocompleterSearch
+{
+    border:2px solid gray;
+    position:relative;
+    background-color:#ffffff;
+    left:80px !important;
+}
+
+.courseAutocompleterItemHighlighted{
+    padding:3px;
+    background:#CCCCCC;
+    list-style:none;
+    cursor:pointer;
+}
+
+.cookieTable, .cookieTable td, .cookieTable th
+{
+    border:1px solid #AAAAAA;
+    border-collapse:collapse;
+    padding:5px;
+}
+
+.emailAddressSpan
+{
+    font-weight:bold;
+}
+
+.tradingFirstHalf, .documentFirstHalf
+{
+    width:50%;
+    display:inline;
+    float:left;
+}
+.tradingSecondHalf, .documentSecondHalf
+{
+    width:50%;
+    display:inline;
+    float:right;
+    margin-top:0px;
+}
+
+
+.volunteers
+{
+    width:500px;
+}
+
+.volunteersEntry
+{
+    margin:0px 0 10px 0;
+}
+
+.mapInfo
+{
+    width:300px;
+}
+.mapInfo div
+{
+    -moz-border-radius: 15px;
+    border-radius: 5px;
+    min-height:70px;
+    margin:6px;
+    padding:4px 10px 4px 10px;
+}
+
+.esitContent div.volunteerSkills table
+{
+    margin-left:200px;
+}
+
+.esitContent .esitBtnRow
+{
+    margin:10px 0 10px 205px;
+}
+
+.searchSort
+{
+    float:right;
+}
+
+.esitContent h2.groupHeader
+{
+    float:left;
+    display:inline;
+    margin-top:2px;
+    margin-bottom:10px;
+}
+
+.esitContent .documentPriceLine
+{
+    padding-bottom:5px;
+}
+/*
+     FILE ARCHIVED ON 06:08:21 Jul 19, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:47:33 Jan 03, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 124.458 (3)
+  esindex: 0.006
+  captures_list: 139.209
+  CDXLines.iter: 10.719 (3)
+  PetaboxLoader3.datanode: 382.729 (5)
+  exclusion.robots: 0.147
+  exclusion.robots.policy: 0.135
+  RedisCDXSource: 1.54
+  PetaboxLoader3.resolve: 47.119 (2)
+  load_resource: 332.877
+*/
