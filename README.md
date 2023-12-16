@@ -1,4 +1,4 @@
-<strong>Project Name</strong><br>
+## Project Name<br>
 Queen Mary Alumni
 
 <strong>Prerequisites</strong><br>
